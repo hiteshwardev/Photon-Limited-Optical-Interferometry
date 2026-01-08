@@ -1,0 +1,20 @@
+# Detector and noise model
+
+detector:
+  type: ideal_poisson
+  quantum_efficiency: null
+  pixel_count: null
+  integration_time: null
+
+noise:
+  shot_noise:
+    enabled: true
+
+  dark_current:
+    enabled: false
+    rate: null
+
+  readout_noise:
+    enabled: false
+    rms: null
+

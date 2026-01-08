@@ -1,0 +1,7 @@
+# Fundamental physical constants (SI units)
+
+speed_of_light: 299792458              # m / s
+planck_constant: 6.62607015e-34        # J s
+reduced_planck_constant: 1.054571817e-34 # J s
+boltzmann_constant: 1.380649e-23       # J / K
+

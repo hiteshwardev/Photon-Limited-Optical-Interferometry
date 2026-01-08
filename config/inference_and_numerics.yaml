@@ -1,0 +1,18 @@
+# Inference and numerical configuration
+
+parameter_estimation:
+  method: fisher_information
+
+fisher_information:
+  finite_difference_step: 1.0e-12
+  regularization: null
+
+numerical_grids:
+  spatial_resolution: null     # meters or radians
+  wavelength_resolution: null
+
+monte_carlo:
+  realizations: 500
+  random_seed: 42
+  enabled: true
+

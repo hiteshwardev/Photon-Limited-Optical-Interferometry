@@ -1,0 +1,18 @@
+# Plotting and visualization style
+
+figure:
+  dpi: 150
+  size: [6, 4]
+
+fonts:
+  family: serif
+  size: 11
+
+colors:
+  primary: "#1f77b4"
+  secondary: "#ff7f0e"
+
+save:
+  format: pdf
+  transparent: true
+

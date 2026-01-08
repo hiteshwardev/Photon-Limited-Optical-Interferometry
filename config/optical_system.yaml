@@ -1,0 +1,24 @@
+# Optical / photonic system description
+
+wavelength:
+  central: 5.0e-7        # meters (500 nm, visible)
+  bandwidth: null        # to be used in later notebooks
+  grid_points: null
+
+aperture:
+  type: two_telescope_interferometer
+  diameter: null         # not required for pure interferometry
+  baseline: 100.0        # meters (long-baseline optical interferometer)
+
+optical_elements:
+  phase_noise:
+    enabled: false
+    rms: null
+
+  dispersion:
+    enabled: false
+    coefficient: null
+
+propagation:
+  model: direct_interference
+

@@ -1,0 +1,17 @@
+# Astrophysical source model
+
+source:
+  type: binary_star
+
+parameters:
+  angular_separation:
+    value: null          # radians
+    bounds: [1e-9, 1e-4] # sub-mas to ~20 mas
+
+  flux_ratio:
+    value: null          # F2 / F1
+    bounds: [0.01, 1.0]
+
+observation_geometry:
+  distance_to_source: null
+
